@@ -1,0 +1,17 @@
+
+0
+java:S1220""Move this file to a named package.
+A
+java:S1172"+Remove this unused method parameter "args".(‹——’
+V	java:S125"<This block of commented-out lines of code should be removed.(µâï©ÿÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ž¾„ëüÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Í²–Ûùÿÿÿÿ
+F
+java:S1172"+Remove this unused method parameter "args".(ÆüÊ»ýÿÿÿÿ
+X
+java:S1854 "=Remove this useless assignment to local variable "treeColor".(ã¹‹ëøÿÿÿÿ
+J
+java:S6212 "/Declare this local variable with "var" instead.(ã¹‹ëøÿÿÿÿ
+I
+java:S1481 ".Remove this unused "treeColor" local variable.(ã¹‹ëøÿÿÿÿ

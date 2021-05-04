@@ -1,0 +1,45 @@
+
+e
+java:S3518"CMake sure this expression can't be zero before doing this division.(ïËÛˆşÿÿÿÿ8àÎ¼¿“/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ™ò¬úÿÿÿÿ8¼½¿“/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ãˆí8˜¢¿¿“/
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®‚ÿ/8§ƒÀ¿“/
+0
+java:S1220""Move this file to a named package.
+R
+java:S2589
+"7Remove this expression which always evaluates to "true"(¹¡áıÿÿÿÿ
+I
+java:S1121	".Extract the assignment out of this expression.(İ¾ÓÆüÿÿÿÿ
+P
+java:S1121"".Extract the assignment out of this expression.(Ò° ™ıÿÿÿÿ8î°¿“/
+P
+java:S1121)".Extract the assignment out of this expression.(æØşüÿÿÿÿ8Ş¨ê¿“/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(«¤œåÿÿÿÿÿ
+F
+java:S1172"+Remove this unused method parameter "args".(üÎÆıÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ÒÙôóúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(°¨ı›
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿º²Ñùÿÿÿÿ
+F
+java:S1172"+Remove this unused method parameter "args".(¿º²Ñùÿÿÿÿ
+W
+java:S1854"5Remove this useless assignment to local variable "R".(õ™ò¬úÿÿÿÿ8§¼½¿“/
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÿş«Ä
+E
+java:S6212"/Declare this local variable with "var" instead.(­Ãˆí
+D
+java:S6212"/Declare this local variable with "var" instead.(®‚ÿ/
+X	java:S125"<This block of commented-out lines of code should be removed.(œ˜Í€8ôŒÁ¿“/
+\
+java:S1161(":Add the "@Override" annotation above this method signature(×ËÎøÿÿÿÿ8åÂ²¿“/
+\
+java:S1161.":Add the "@Override" annotation above this method signature(×ËÎøÿÿÿÿ8¸ğ³¿“/
+\
+java:S11614":Add the "@Override" annotation above this method signature(ºñÒÉúÿÿÿÿ8·Ãê¿“/
+b
+java:S21349"@Don't extend "Thread", since the "run" method is not overridden.(’ö¤­ıÿÿÿÿ8í¸¿“/
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ8Ôî¾¿“/
+H
+java:S1481"&Remove this unused "R" local variable.(õ™ò¬úÿÿÿÿ8µ¼½¿“/
