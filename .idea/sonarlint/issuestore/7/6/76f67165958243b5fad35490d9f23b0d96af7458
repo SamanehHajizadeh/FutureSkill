@@ -1,7 +1,0 @@
-
-
-java:S4165	"_Remove this useless assignment; "w" already holds the assigned value along all execution paths.(çæØúÿÿÿÿ8‰Ãìº“/
-|
-java:S4165"_Remove this useless assignment; "x" already holds the assigned value along all execution paths.(µè©8ˆÃìº“/
-0
-java:S1220""Move this file to a named package.
