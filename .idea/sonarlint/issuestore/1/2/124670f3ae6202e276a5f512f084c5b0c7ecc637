@@ -1,9 +1,0 @@
-
-J
-java:S1604"(Make this anonymous inner class a lambda(Í‚ÅÌûÿÿÿÿ8÷¤À“/
-0
-java:S1220""Move this file to a named package.
-U	java:S106	"9Replace this use of System.out or System.err by a logger.(¥”†–8Ë°•À“/
-Q
-java:S6212"/Declare this local variable with "var" instead.(€ˆşÁøÿÿÿÿ8Ë°•À“/
-X	java:S125"<This block of commented-out lines of code should be removed.(Œ“´¥8œú À“/

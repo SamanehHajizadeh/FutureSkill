@@ -28,28 +28,40 @@ public class Solution {
      * Task 2: Return the number of cows with neighbours.
      */
     public static int getNumberOfCowsWithNeighbours(String[][] cube, int n) {
-        var result = 0;
+        var countNeighbours = 0;
         for (var i = 0; i < n; i++) {
             for (var j = 0; j < n; j++) {
-                result += countNeighboursCow(cube, n, i, j);
-            }
-        }
-        return result*2;
-    }
-
-    public static int countNeighboursCow(String[][] cube, int n, int i, int j) {
-        var countNeighbours = 0;
-        String temp = cube[i][j];
-        if (temp != null) {
-            if (i == n - 1) {
-                if (cube[i][j + 1] != null) countNeighbours++;
-            } else if (j == n - 1) {
-                if (cube[i + 1][j] != null) countNeighbours++;
-            } else {
-                if (cube[i + 1][j] != null) countNeighbours++;
-                if (cube[i][j + 1] != null) countNeighbours++;
+                countNeighbours = countNeighboursCowNext(cube, countNeighbours, n, i, j);
             }
         }
         return countNeighbours;
     }
+
+    public static int countNeighboursCowNext(String[][] cube, int countNeighbours, int n, int x, int y) {
+
+        String temp = cube[x][y];
+        if (temp != null) {
+            if ((x == n - 1) && (y == n - 1)) {
+                if (cube[x][y] != null) countNeighbours++;
+            } else if ((x == 0) && (y == 0)) {
+                if (cube[x + 1][y] != null) countNeighbours++;
+                if (cube[x][y + 1] != null) countNeighbours++;
+            } else if (x == n - 1) {
+                if (cube[x][y + 1] != null) countNeighbours++;
+            } else if (y == n - 1) {
+                if (cube[x + 1][y] != null) countNeighbours++;
+            } else if (x == 0) {
+                if (cube[x][y - 1] != null) countNeighbours++;
+            } else if (y == 0) {
+                if (cube[x - 1][y] != null) countNeighbours++;
+            } else {
+                if (cube[x - 1][y] != null) countNeighbours++;
+                if (cube[x][y - 1] != null) countNeighbours++;
+                if (cube[x + 1][y] != null) countNeighbours++;
+                if (cube[x][y + 1] != null) countNeighbours++;
+            }
+        }
+        return countNeighbours;
+    }
+
 }
